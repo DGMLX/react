@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 
 
 export const NosotrosPage = () =>{
@@ -11,7 +12,7 @@ export const NosotrosPage = () =>{
             Desarrollamos vuestras futuras tecnologías por medio de codificación, lo que nos permite tener acceso total a futuras modificaciones y mantenciones. Si tienes alguna pregunta, no dudes en consultarnos por medio de nuestra sección de contacto, via mail o por redes sociales.</p>
 
             <div className="w-100 d-flex justify-content-center mt-5 mb-5">
-                <a className="text-center btn-section2 enlace" href="contacto.html">Contáctanos</a>
+                <Link className="text-center btn-section2 enlace" to="/contacto">Contáctanos</Link>
             </div>
         </div>
         <div className="text-center mb-5">

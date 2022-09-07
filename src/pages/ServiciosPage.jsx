@@ -1,5 +1,10 @@
+import {Link} from "react-router-dom"
 
 export const ServiciosPage = () =>{
+
+  const goingUp = () =>{
+    window.scrollTo(0,0)
+}
 
     return(
         
@@ -13,7 +18,7 @@ export const ServiciosPage = () =>{
                     <p className="me-lg-5 fs-5">Desarrollamos tu página con los lenguajes de la web desde cero, lo que nos permite tener control y acceso del código para modificaciones de cualquier elemento si es necesario.</p>
                   </div>
                   <div className="col-12 col-md-4" >
-                    <img src="/img/service-1.png" className="img-service ms-lg-5 intersection-vertical" id="intersection13"  alt=""/>
+                    <img src="/img/service-1.png" className="img-service ms-lg-5 " id="intersection13"  alt=""/>
                   </div>
                 </div>
 <hr/>
@@ -24,7 +29,7 @@ export const ServiciosPage = () =>{
                       <p className="me-lg-5 fs-5">Hoy en día es fundamental que tu sitio web sea responsive, diseñamos tu sitio web a la medida para que pueda ser visto desde distintos dispositivos como celulares, tablets, notebook y computadoras de escritorio, el cual se adaptará según el tamaño de la pantalla. </p>
                     </div>
                     <div className="col-12 col-md-4" >
-                      <img src="/img/imgpng3.png" className="img-sevice ms-lg-5 w-75 intersection-vertical" id="intersection14" alt=""/>
+                      <img src="/img/imgpng3.png" className="img-sevice ms-lg-5 w-75 " id="intersection14" alt=""/>
                     </div>
                     
                   </div>
@@ -39,7 +44,7 @@ export const ServiciosPage = () =>{
                       </p>
                     </div>
                       <div className="col-12 col-md-4" >
-                        <img src="/img/service-tres.png" className="img-sevice ms-lg-5 w-75 intersection-vertical" id="intersection15" alt=""/>
+                        <img src="/img/service-tres.png" className="img-sevice ms-lg-5 w-75 " id="intersection15" alt=""/>
                       </div>
                     
                   </div>
@@ -54,7 +59,7 @@ export const ServiciosPage = () =>{
                       </p>
                     </div>
                     <div className="col-12 col-md-4" >
-                      <img src="/img/service-4.png" className="img-sevice ms-lg-5 w-75 intersection-vertical" id="intersection16"alt=""/>
+                      <img src="/img/service-4.png" className="img-sevice ms-lg-5 w-75 " id="intersection16"alt=""/>
                     </div>
                   </div>
                 </div>
@@ -68,7 +73,7 @@ export const ServiciosPage = () =>{
                       </p>
                     </div>
                     <div className="col-12 col-md-4" >
-                      <img src="/img/-5.png" className=" img-sevice ms-lg-5 w-75 intersection-vertical" id="intersection17" alt=""/>
+                      <img src="/img/service-5.png" className=" img-sevice ms-lg-5 w-75 " id="intersection17" alt=""/>
                     </div>
                     
                   </div>
@@ -83,7 +88,7 @@ export const ServiciosPage = () =>{
                       </p>
                     </div>
                     <div className="col-12 col-md-4" >
-                      <img src="/img/service-6.png" className="img-sevice ms-lg-5 w-75 intersection-vertical" id="intersection18" alt=""/>
+                      <img src="/img/service-6.png" className="img-sevice ms-lg-5 w-75 " id="intersection18" alt=""/>
                     </div>
                     
                   </div>
@@ -99,7 +104,7 @@ export const ServiciosPage = () =>{
                         </p>
                     </div>
                     <div className="col-12 col-md-4" >
-                      <img src="/img/service-7.png" className=" img-sevice ms-lg-5 w-75 intersection-vertical" id="intersection19" alt=""/>
+                      <img src="/img/service-7.png" className=" img-sevice ms-lg-5 w-75 " id="intersection19" alt=""/>
                     </div>
                     
                   </div>
@@ -114,14 +119,14 @@ export const ServiciosPage = () =>{
                       <p className="me-lg-5 fs-5">Te proporcionamos un año de Dominio y Hosting de forma gratuita.{/* Si no conoces estos terminos, puedes ir a la sección de blog y encontrarás algunos términos que quizás desconozcas.*/} </p>
                     </div>
                     <div className="col-12 col-md-4" >
-                      <img src="/img/service-8.png" className=" img-sevice ms-lg-5 w-75 intersection-vertical" id="intersection20" alt=""/>
+                      <img src="/img/service-8.png" className=" img-sevice ms-lg-5 w-75 " id="intersection20" alt=""/>
                     </div>
                     
                   </div>
                 </div>
 
-                <div className="w-100 d-flex justify-content-center mt-4 estilo-intersection" id="intersection21">
-                  <a className="text-center btn-section2 enlace" href="contacto.html">Solicita nuestros servicios</a>
+                <div className="w-100 d-flex justify-content-center mt-4" id="intersection21">
+                  <Link className="text-center btn-section2 enlace" to="/contacto" onClick={goingUp}>Solicita nuestros servicios</Link>
               </div>
 
             </div>

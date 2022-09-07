@@ -12,7 +12,7 @@ export const ProyectosPage = () =>{
         <div>
             <div className="col-12 mb-5">
                 <a href="https://arriendodecamionesplumagyg.cl/" target="_blank" className="enlace-proyectos">
-                    <div className="proyecto-izajes d-flex justify-content-center align-items-center intersection-vertical" id="intersection22">
+                    <div className="proyecto-izajes d-flex justify-content-center align-items-center" id="intersection22">
                         <h2 className="visitar-web w-100 text-center pt-2 pb-2">VER SITIO WEB</h2>
                     </div>
                 </a>
@@ -22,7 +22,7 @@ export const ProyectosPage = () =>{
 
             <div className="col-12 mt-5 mb-5">
                 <a href="https://aridosquintaregion.cl/" target="_blank" className="enlace-proyectos">
-                    <div className="proyecto-aridos d-flex justify-content-center align-items-center intersection-vertical" id="intersection23">
+                    <div className="proyecto-aridos d-flex justify-content-center align-items-center" id="intersection23">
                         <h2 className="visitar-web w-100 text-center pt-2 pb-2">VER SITIO WEB</h2>
                     </div>
                 </a>
@@ -33,7 +33,7 @@ export const ProyectosPage = () =>{
 
             <div className="col-12 mt-5 mb-5">
                 <a href="https://dgmlx.github.io/soporteComputacional/" target="_blank" className="enlace-proyectos">
-                    <div className="proyecto-soporte d-flex justify-content-center align-items-center intersection-vertical" id="intersection24">
+                    <div className="proyecto-soporte d-flex justify-content-center align-items-center " id="intersection24">
                         <h2 className="visitar-web w-100 text-center pt-2 pb-2">VER SITIO WEB</h2>
                     </div>
                 </a>
@@ -44,7 +44,7 @@ export const ProyectosPage = () =>{
 
             <div className="col-12 mt-5 mb-5">
                 <a href="https://dgmlx.github.io/administrador-gastos/" target="_blank" className="enlace-proyectos">
-                    <div className="proyecto-presupuesto d-flex justify-content-center align-items-center intersection-vertical" id="intersection25">
+                    <div className="proyecto-presupuesto d-flex justify-content-center align-items-center" id="intersection25">
                         <h2 className="visitar-web w-100 text-center pt-2 pb-2">VER SITIO WEB</h2>
                     </div>
                 </a>
@@ -66,7 +66,7 @@ export const ProyectosPage = () =>{
 
             <div className="col-12 mt-5 mb-5">
                 <a href="https://dgmlx.github.io/cryptoProyect/" target="_blank" className="enlace-proyectos">
-                    <div className="proyecto-crypto d-flex justify-content-center align-items-center intersection-vertical" id="intersection26">
+                    <div className="proyecto-crypto d-flex justify-content-center align-items-center" id="intersection26">
                         <h2 className="visitar-web w-100 text-center pt-2 pb-2">VER SITIO WEB</h2>
                     </div>
                 </a>
@@ -77,7 +77,7 @@ export const ProyectosPage = () =>{
 
             <div className="col-12 mt-5 mb-5">
                 <a href="https://dgmlx.github.io/proyectoVet/" target="_blank" className="enlace-proyectos">
-                    <div className="proyecto-vet d-flex justify-content-center align-items-center intersection-vertical" id="intersection27">
+                    <div className="proyecto-vet d-flex justify-content-center align-items-center " id="intersection27">
                         <h2 className="visitar-web w-100 text-center pt-2 pb-2">VER SITIO WEB</h2>
                     </div>
                 </a>

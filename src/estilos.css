@@ -272,7 +272,7 @@ li a:hover{
 /*SECTION4*/
     .proyecto-izajes{
         background:linear-gradient(rgba(5,7,12,0.75),rgba(5,7,12,0.75)),
-        url(wallpaper-izajes.jpg);
+        url(../public/img/wallpaper-izajes.jpg);
         background-position:center ;
         background-size: cover;
         height: 350px;
@@ -282,7 +282,7 @@ li a:hover{
     
     .proyecto-aridos{
         background:linear-gradient(rgba(5,7,12,0.75),rgba(5,7,12,0.75)),
-        url(wallpaper-aridos.jpg);
+        url(../public/img/wallpaper-aridos.jpg);
         background-position:center ;
         background-size: cover;
         height: 350px;
@@ -293,7 +293,7 @@ li a:hover{
 
     .proyecto-soporte{
         background:linear-gradient(rgba(5,7,12,0.75),rgba(5,7,12,0.75)),
-        url(wallpaper-soporte-tecnico.jpg);
+        url(../public/img/wallpaper-soporte-tecnico.jpg);
         background-position:center ;
         background-size: cover;
         height: 350px;
@@ -302,7 +302,7 @@ li a:hover{
     }
     .proyecto-presupuesto{
         background:linear-gradient(rgba(5,7,12,0.75),rgba(5,7,12,0.75)),
-        url(wallpaper-presupuesto.jpg);
+        url(../public/img/wallpaper-presupuesto.jpg);
         background-position:center ;
         background-size: cover;
         height: 350px;
@@ -311,7 +311,7 @@ li a:hover{
     }
     .proyecto-gasfiteria{
         background:linear-gradient(rgba(5,7,12,0.75),rgba(5,7,12,0.75)),
-        url(wallpaper-gasfiteria.jpg);
+        url(../public/img/wallpaper-gasfiteria.jpg);
         background-position:center ;
         background-size: cover;
         height: 350px;
@@ -321,7 +321,7 @@ li a:hover{
 
     .proyecto-crypto{
         background:linear-gradient(rgba(5,7,12,0.75),rgba(5,7,12,0.75)),
-        url(Crypto-Background.jpg);
+        url(../public/img/Crypto-Background.jpg);
         background-position:center ;
         background-size: cover;
         height: 350px;
@@ -331,7 +331,7 @@ li a:hover{
 
     .proyecto-vet{
         background:linear-gradient(rgba(5,7,12,0.75),rgba(5,7,12,0.75)),
-        url(wallpaper-vet.jpg);
+        url(../public/img/wallpaper-vet.jpg);
         background-position:center ;
         background-size: cover;
         height: 350px;
@@ -348,7 +348,7 @@ li a:hover{
 /*SECTION 5*/
 
 .fondo-blanco{
-    background-image: url(fondo-blanco.jpg);
+    background-image: url(../public/img/fondo-blanco.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -373,7 +373,7 @@ footer{
 
 /*CONTACTO*/
 .main-contacto{
-    background-image: url(fondo-contacto.jpg);
+    background-image: url(../public/img/fondo-contacto.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -390,26 +390,26 @@ footer{
 /*ANIMACIONES*/
 @keyframes backgroundSlider{
     0%,100%{
-        background-image: url(fondo1.jpg);
+        background-image: url(../public/img/fondo1.jpg);
         background-position:center;
         background-size: cover;
         height: 25rem;
     }
     25%{
-        background-image: url(fondo2.png);
+        background-image: url(../public/img/fondo2.png);
         background-position:center;
         background-size: cover;
         height: 25rem;
     }
     50%{
-        background-image:url(fondo3.jpg);
+        background-image:url(../public/img/fondo3.jpg);
         background-position:center;
         background-size: cover;
         height: 25rem;
     }
 
     75%{
-        background-image: url(fondo4.jpg);
+        background-image: url(../public/img/fondo4.jpg);
         background-position:center;
         background-size: cover;
         height: 25rem;
